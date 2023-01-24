@@ -6,6 +6,9 @@ document.querySelector('#search-btn').onclick = ()=>{
 
 window.onscroll =() =>{
 
+    searchForm.classList.remove('active');
+
+
     if(window.scrollY > 80){
         document.querySelector('.header .header-2').classList.add('active');
     }
